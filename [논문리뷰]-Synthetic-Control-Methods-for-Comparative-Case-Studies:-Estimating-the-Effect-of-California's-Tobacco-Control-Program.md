@@ -3,7 +3,7 @@ categories:
   - Paper Review
 ---
 
-# #PaperReview #SyntheticControlMethod
+# 논문리뷰 (Synthetic Control Method)
 
 앞으로는 내가 경제학과인만큼 내가 읽는 논문들에 대해서도 소개하고 정리하는 포스팅을 해보려고 한다.  
 그 대망의 첫번째 논문은 나온지 10년 정도 된 따끈따끈한 Method인 **Synthetic Control Method**다.  
