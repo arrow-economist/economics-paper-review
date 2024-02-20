@@ -1,5 +1,6 @@
 # 논문리뷰 (Synthetic Control Method)
 
+
 앞으로는 내가 경제학과인만큼 내가 읽는 논문들에 대해서도 소개하고 정리하는 포스팅을 해보려고 한다.  
 그 대망의 첫번째 논문은 나온지 10년 정도 된 따끈따끈한 Method인 **Synthetic Control Method**다.  
 이 방법론은 *Journal of the American Statistical Association*이라는 통계학 탑 저널 중 하나에 2010년에 게재된 **Abadie et al. (2010), Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California's Tobacco Control Program**이라는 논문으로부터 시작한다.  
