@@ -23,7 +23,9 @@ standard한 DID를 쓰기 위해서는 다소 강한 가정이 필요한데, 의
 
 ## Basic DID Setup
 혹시 DID에 대해 잘 모르는 사람이 있을 수도 있기 때문에 이에 대해서 논문에서 설명한 방식에 따라 간략하게 설명해보고자 한다. 우선, time은 $t= 1,2$가 존재하고, 유닛은 $i = 1, 2, \cdots, N$으로 표기한다. 어떠한 intervention은 1기와 2기 사이에 일어난다고 가정하면, 1기는 pre-treatment period가 되고 2기는 post-treatment period가 된다.\
-$Y_{i,t}(0,0)$는 두 period에서 모두 untreated인 unit $i$의 period $t$일 때 potential outcome으로 정의한다. 마찬가지로, $Y_{i,t}(0,1)$은 2기에서 treated가 되는 unit $i$의 period $t$일 때의 potential outcome이 된다. 그런데 notation을 단순화하기 위해서 $Y_{i,t}(0) = Y_{i,t}(0,0)$, $Y_{i,t}(1) = Y_{i,t}(0,1)$로 표현할 수 있다.
+$Y_{i,t}(0,0)$는 두 period에서 모두 untreated인 unit $i$의 period $t$일 때 potential outcome으로 정의한다. 마찬가지로, $Y_{i,t}(0,1)$은 2기에서 treated가 되는 unit $i$의 period $t$일 때의 potential outcome이 된다. 그런데 notation을 단순화하기 위해서 $Y_{i,t}(0) = Y_{i,t}(0,0)$, $Y_{i,t}(1) = Y_{i,t}(0,1)$로 표현할 수 있다.\
+이 때, Average Treatment Effect on the Treated (ATT)는 다음과 같이 정의된다.\
+$\tau_2 = \mathbb{E}[Y_{i,2}(1) - Y_{i,2}(0) |D_i = 1]$
 
 ## References  
 - Roth et al. (2023), "What's trending in difference-in-differences? A synthesis of the recent econometrics literature." *Journal of Econometrics* 235, 2218-2244.
