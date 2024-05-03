@@ -26,6 +26,9 @@ standard한 DID를 쓰기 위해서는 다소 강한 가정이 필요한데, 의
 $Y_{i,t}(0,0)$는 두 period에서 모두 untreated인 unit $i$의 period $t$일 때 potential outcome으로 정의한다. 마찬가지로, $Y_{i,t}(0,1)$은 2기에서 treated가 되는 unit $i$의 period $t$일 때의 potential outcome이 된다. 그런데 notation을 단순화하기 위해서 $Y_{i,t}(0) = Y_{i,t}(0,0)$, $Y_{i,t}(1) = Y_{i,t}(0,1)$로 표현할 수 있다.
 
 ## References  
-- Roth et al. (2023), "What's trending in difference-in-differences? A synthesis of the recent econometrics literature." *Journal of Econometrics* 235:2218-2244.
+- Roth et al. (2023), "What's trending in difference-in-differences? A synthesis of the recent econometrics literature." *Journal of Econometrics* 235, 2218-2244.
+- Callaway., Brantly, Sant’Anna., Pedro H.C., (2021), "Difference-in-Differences with multiple time periods." *Journal of Econometrics* 225 (2), 200–230.
 ## 참고할만한 다른 논문
-- Abadie, A. (2021), "Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects." *Journal of Economic Literature* 59 (2):391–425.
+- Doudchenko., Nikolay, Imbens., Guido W., (2016), "Balancing, Regression, Difference-In-Differences and Synthetic Control Methods: A Synthesis." *Working Paper* 22791, National Bureau of Economic Research.
+- Rubin., Donald B., (1974), "Estimating causal effects of treatments in randomized and nonrandomized studies." *J. Edu. Psychol.* 66 (5), 670–688.
+- Donald., Stephen G., Lang., Kevin, (2007), "Inference with Difference-in-Differences and Other Panel Data." *Rev. Econ. Stat.* 89 (2), 221–233.
